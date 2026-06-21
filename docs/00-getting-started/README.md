@@ -1,6 +1,6 @@
 # Getting Started
 
-> Status: 🔲 Not started · Phase 1
+> Status: 🟡 In progress · Phase 1
 
 ## Overview
 
@@ -8,14 +8,14 @@ _TODO: 2-3 sentence summary of what this section covers and why it matters for s
 
 ## Chapters
 
-- [Qnx Overview](qnx-overview.md)
-- [Installation](installation.md)
-- [Licensing](licensing.md)
-- [Environment Setup](environment-setup.md)
-- [Momentics Installation](momentics-installation.md)
-- [Qemu Vm](qemu-vm.md)
-- [Vmware Vm](vmware-vm.md)
-- [First Program](first-program.md)
+- [Qnx Overview](qnx-overview.md) — 🔲 Not started
+- [Installation](installation.md) — 🔲 Not started
+- [Licensing](licensing.md) — 🔲 Not started
+- [Environment Setup](environment-setup.md) — 🔲 Not started
+- [Momentics Installation](momentics-installation.md) — 🔲 Not started
+- [Qemu Vm](qemu-vm.md) — 🟡 In progress (terminal workflow documented, VM creation step still TODO)
+- [Vmware Vm](vmware-vm.md) — 🔲 Not started
+- [First Program](first-program.md) — 🔲 Not started
 
 ## Learning Objectives
 
