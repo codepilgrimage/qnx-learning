@@ -13,7 +13,7 @@ _TODO: 2-3 sentence summary of what this section covers and why it matters for s
 - [Licensing](licensing.md) — 🔲 Not started
 - [Environment Setup](environment-setup.md) — 🔲 Not started
 - [Momentics Installation](momentics-installation.md) — 🔲 Not started
-- [Qemu Vm](qemu-vm.md) — 🟡 In progress (terminal workflow documented, VM creation step still TODO)
+- [Qemu Vm](qemu-vm.md) — ✅ Complete (build → run → stop → SSH workflow, troubleshooting, lessons learned)
 - [Vmware Vm](vmware-vm.md) — 🔲 Not started
 - [First Program](first-program.md) — 🔲 Not started
 
