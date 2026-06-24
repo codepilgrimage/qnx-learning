@@ -1,6 +1,6 @@
 # IPC
 
-> Status: 🔲 Not started · Phase 4
+> Status: 🟡 In progress · Phase 4
 
 ## Overview
 
@@ -11,7 +11,7 @@ _TODO: 2-3 sentence summary of what this section covers and why it matters for s
 - [Channels](channels.md)
 - [Connections](connections.md)
 - [Messages](messages.md)
-- [Pulses](pulses.md)
+- [Pulses](pulses.md) — ✅ Complete (channels, connections, SIGEV_PULSE_INIT, MsgReceivePulse, death_pulse example)
 - [Shared Memory](shared-memory.md)
 - [Semaphores](semaphores.md)
 - [Mutex](mutex.md)

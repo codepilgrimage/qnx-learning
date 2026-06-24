@@ -8,7 +8,7 @@ Hands-on, buildable labs. Each lab pairs with a `/docs/` chapter.
 | [Lab 02 - Thread](lab02-thread/README.md) | 🔲 Not started |
 | [Lab 03 - Spawn](lab03-spawn/README.md) | 🔲 Not started |
 | [Lab 04 - Signals](lab04-signals/README.md) | 🔲 Not started |
-| [Lab 05 - Pulses](lab05-pulses/README.md) | 🔲 Not started |
+| [Lab 05 - Pulses](lab05-pulses/README.md) | ✅ Complete |
 | [Lab 06 - Resource Manager](lab06-resource-manager/README.md) | 🔲 Not started |
 | [Lab 07 - Network](lab07-network/README.md) | 🔲 Not started |
 | [Lab 08 - Shared Memory](lab08-shared-memory/README.md) | 🔲 Not started |

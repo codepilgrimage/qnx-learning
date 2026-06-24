@@ -1,0 +1,38 @@
+# Build artifacts
+*.o
+*.obj
+*.out
+*.elf
+*.a
+*.so
+*.qpf
+bin/
+build/
+obj/
+
+# QNX Momentics / Eclipse workspace
+.metadata/
+.settings/
+*.launch
+.project
+.cproject
+
+# QEMU / VM images
+*.qcow2
+*.vmdk
+*.iso
+vm-images/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# Python (helper scripts, if any)
+__pycache__/
+*.pyc
+.venv/

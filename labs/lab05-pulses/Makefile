@@ -1,18 +1,28 @@
-# Makefile for Lab 05 - Pulses
-# Adjust QNX_TARGET / CPU as needed for your SDP environment.
+# Makefile — Lab 05: Pulses (death_pulse)
 
-CC := qcc
-CFLAGS := -Vgcc_ntoaarch64le -g -Wall
-SRC := src/main.c
-BIN := bin/lab05-pulses
+CC_ARM64  := qcc -Vgcc_ntoaarch64le
+CC_X86    := qcc -Vgcc_ntox86_64
+CFLAGS    := -g -Wall -Wextra
+SRC       := src/death_pulse.c
+BIN_ARM64 := bin/death_pulse
+BIN_X86   := bin/death_pulse_x86
 
-all: $(BIN)
+# Default: build for ARM64 (matches the default SDP 8.0 QEMU image)
+all: arm64
 
-$(BIN): $(SRC)
+arm64: $(BIN_ARM64)
+
+x86: $(BIN_X86)
+
+$(BIN_ARM64): $(SRC)
 	mkdir -p bin
-	$(CC) $(CFLAGS) -o $(BIN) $(SRC)
+	$(CC_ARM64) $(CFLAGS) -o $@ $<
+
+$(BIN_X86): $(SRC)
+	mkdir -p bin
+	$(CC_X86) $(CFLAGS) -o $@ $<
 
 clean:
 	rm -rf bin
 
-.PHONY: all clean
+.PHONY: all arm64 x86 clean
